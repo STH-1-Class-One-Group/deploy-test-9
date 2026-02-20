@@ -1,5 +1,5 @@
 {
-  "count": 589,
+  "count": 45,
   "list": [
     {
       "unitName": "판교",
@@ -452,6 +452,876 @@
       "yValue": null
     },
     {
+      "unitName": "일로",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "056 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.480819",
+      "yValue": "34.858761"
+    },
+    {
+      "unitName": "군산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "227 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.790774",
+      "yValue": "36.002506"
+    },
+    {
+      "unitName": "동군산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "228 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.829418",
+      "yValue": "35.945164"
+    },
+    {
+      "unitName": "서천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "234 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.689046",
+      "yValue": "36.095569"
+    },
+    {
+      "unitName": "서서울",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "253 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.864689",
+      "yValue": "37.355446"
+    },
+    {
+      "unitName": "홍성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "257 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.562018",
+      "yValue": "36.595656"
+    },
+    {
+      "unitName": "광천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "258 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.593303",
+      "yValue": "36.498494"
+    },
+    {
+      "unitName": "대천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "259 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.570493",
+      "yValue": "36.332006"
+    },
+    {
+      "unitName": "춘장대",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "260 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.605476",
+      "yValue": "36.168064"
+    },
+    {
+      "unitName": "매송",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "281 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.890682",
+      "yValue": "37.281755"
+    },
+    {
+      "unitName": "비봉",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "282 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.886648",
+      "yValue": "37.244711"
+    },
+    {
+      "unitName": "발안",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "283 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.886818",
+      "yValue": "37.121350"
+    },
+    {
+      "unitName": "서평택",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "285 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.863858",
+      "yValue": "36.994110"
+    },
+    {
+      "unitName": "송악",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "287 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.785895",
+      "yValue": "36.934057"
+    },
+    {
+      "unitName": "당진",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "288 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.702448",
+      "yValue": "36.895637"
+    },
+    {
+      "unitName": "서산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "298 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.569653",
+      "yValue": "36.809913"
+    },
+    {
+      "unitName": "해미",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "299 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.556740",
+      "yValue": "36.708600"
+    },
+    {
+      "unitName": "서김제",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "501 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.842110",
+      "yValue": "35.831530"
+    },
+    {
+      "unitName": "부안",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "502 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.773477",
+      "yValue": "35.726985"
+    },
+    {
+      "unitName": "줄포",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "503 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.702323",
+      "yValue": "35.598477"
+    },
+    {
+      "unitName": "선운산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "504 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.688662",
+      "yValue": "35.510890"
+    },
+    {
+      "unitName": "고창",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "505 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.670951",
+      "yValue": "35.437381"
+    },
+    {
+      "unitName": "영광",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "506 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.554466",
+      "yValue": "35.303471"
+    },
+    {
+      "unitName": "함평",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "507 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.486070",
+      "yValue": "35.096965"
+    },
+    {
+      "unitName": "무안",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "508 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.497717",
+      "yValue": "35.008119"
+    },
+    {
+      "unitName": "목포",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "509 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.485422",
+      "yValue": "34.863289"
+    },
+    {
+      "unitName": "무창포",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "511 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": "126.565350",
+      "yValue": "36.241003"
+    },
+    {
+      "unitName": "불갑산(목포)",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "711 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": null,
+      "yValue": null
+    },
+    {
+      "unitName": "불갑산(서울)",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "717 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": null,
+      "yValue": null
+    },
+    {
+      "unitName": "행담도",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "732 ",
+      "routeName": "서해안선",
+      "routeNo": "015",
+      "xValue": null,
+      "yValue": null
+    },
+     {
+      "unitName": "동수원",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "102 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.047040",
+      "yValue": "37.298118"
+    },
+    {
+      "unitName": "마성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "171 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.177727",
+      "yValue": "37.284826"
+    },
+    {
+      "unitName": "용인",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "172 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.211310",
+      "yValue": "37.259341"
+    },
+    {
+      "unitName": "양지",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "173 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.295666",
+      "yValue": "37.236295"
+    },
+    {
+      "unitName": "덕평",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "175 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.365735",
+      "yValue": "37.239441"
+    },
+    {
+      "unitName": "이천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "176 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.495005",
+      "yValue": "37.251268"
+    },
+    {
+      "unitName": "여주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "177 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.649845",
+      "yValue": "37.253734"
+    },
+    {
+      "unitName": "문막",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "178 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.825898",
+      "yValue": "37.313698"
+    },
+    {
+      "unitName": "원주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "180 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "127.949955",
+      "yValue": "37.399177"
+    },
+    {
+      "unitName": "새말",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "181 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.070769",
+      "yValue": "37.449741"
+    },
+    {
+      "unitName": "둔내",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "182 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.205765",
+      "yValue": "37.497035"
+    },
+    {
+      "unitName": "면온",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "183 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.362953",
+      "yValue": "37.561235"
+    },
+    {
+      "unitName": "대관령",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "184 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.695545",
+      "yValue": "37.682744"
+    },
+    {
+      "unitName": "평창",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "185 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.412389",
+      "yValue": "37.587321"
+    },
+    {
+      "unitName": "속사",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "186 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.490565",
+      "yValue": "37.635729"
+    },
+    {
+      "unitName": "진부",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "187 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "128.561586",
+      "yValue": "37.648394"
+    },
+    {
+      "unitName": "북수원",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "212 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.987430",
+      "yValue": "37.325903"
+    },
+    {
+      "unitName": "부곡",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "213 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.958872",
+      "yValue": "37.326225"
+    },
+    {
+      "unitName": "동군포",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "214 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.939501",
+      "yValue": "37.329150"
+    },
+    {
+      "unitName": "군포",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "215 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.919880",
+      "yValue": "37.321893"
+    },
+    {
+      "unitName": "덕평휴게소",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "220 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": null,
+      "yValue": null
+    },
+    {
+      "unitName": "군자",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "254 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.780851",
+      "yValue": "37.358410"
+    },
+    {
+      "unitName": "서안산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "255 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.792398",
+      "yValue": "37.344963"
+    },
+    {
+      "unitName": "안산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "256 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": "126.842520",
+      "yValue": "37.349762"
+    },
+    {
+      "unitName": "동둔내",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "734 ",
+      "routeName": "영동선",
+      "routeNo": "050",
+      "xValue": null,
+      "yValue": null
+    },
+    {
+      "unitName": "하남",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "066 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.219040",
+      "yValue": "37.529208"
+    },
+    {
+      "unitName": "지곡",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "104 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.768360",
+      "yValue": "35.590210"
+    },
+    {
+      "unitName": "남대전",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "114 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.476199",
+      "yValue": "36.268537"
+    },
+    {
+      "unitName": "판암",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "119 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.467975",
+      "yValue": "36.318246"
+    },
+    {
+      "unitName": "무주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "164 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.652212",
+      "yValue": "35.976051"
+    },
+    {
+      "unitName": "덕유산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "168 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.648956",
+      "yValue": "35.842535"
+    },
+    {
+      "unitName": "서상",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "170 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.679707",
+      "yValue": "35.666208"
+    },
+    {
+      "unitName": "동서울",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "190 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.219886",
+      "yValue": "37.516779"
+    },
+    {
+      "unitName": "경기광주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "191 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.266234",
+      "yValue": "37.446020"
+    },
+    {
+      "unitName": "곤지암",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "192 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.322125",
+      "yValue": "37.355209"
+    },
+    {
+      "unitName": "일죽",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "193 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.450948",
+      "yValue": "37.087714"
+    },
+    {
+      "unitName": "서이천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "194 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.396763",
+      "yValue": "37.278792"
+    },
+    {
+      "unitName": "대소",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "195 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.466463",
+      "yValue": "36.981363"
+    },
+    {
+      "unitName": "진천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "196 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.469320",
+      "yValue": "36.870447"
+    },
+    {
+      "unitName": "증평",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "197 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.503782",
+      "yValue": "36.769350"
+    },
+    {
+      "unitName": "서청주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "198 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.417762",
+      "yValue": "36.647737"
+    },
+    {
+      "unitName": "오창",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "199 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.444321",
+      "yValue": "36.710320"
+    },
+    {
+      "unitName": "금산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "200 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.525487",
+      "yValue": "36.105032"
+    },
+    {
+      "unitName": "추부",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "204 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.480964",
+      "yValue": "36.196740"
+    },
+    {
+      "unitName": "생초",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "221 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.829419",
+      "yValue": "35.485025"
+    },
+    {
+      "unitName": "산청",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "222 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.864599",
+      "yValue": "35.424246"
+    },
+    {
+      "unitName": "단성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "223 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.954507",
+      "yValue": "35.292983"
+    },
+    {
+      "unitName": "서진주",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "225 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.045334",
+      "yValue": "35.185350"
+    },
+    {
+      "unitName": "연화산",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "512 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.193634",
+      "yValue": "35.088391"
+    },
+    {
+      "unitName": "고성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "513 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.345700",
+      "yValue": "35.006937"
+    },
+    {
+      "unitName": "동고성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "514 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.380470",
+      "yValue": "34.968733"
+    },
+    {
+      "unitName": "북통영",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "515 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.406750",
+      "yValue": "34.894422"
+    },
+    {
+      "unitName": "통영",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "516 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "128.433077",
+      "yValue": "34.869414"
+    },
+    {
+      "unitName": "남이천",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "705 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.443030",
+      "yValue": "37.181588"
+    },
+    {
+      "unitName": "신둔",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "729 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": null,
+      "yValue": null
+    },
+    {
+      "unitName": "삼성",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "736 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": "127.441411",
+      "yValue": "37.185579"
+    },
+    {
+      "unitName": "청주강서",
+      "pageNo": null,
+      "numOfRows": null,
+      "unitCode": "798 ",
+      "routeName": "중부선-대전통영선A",
+      "routeNo": "035",
+      "xValue": null,
+      "yValue": null
+    },
+    {
       "unitName": "서영암(개)",
       "pageNo": null,
       "numOfRows": null,
@@ -790,211 +1660,6 @@
       "routeNo": "010",
       "xValue": "127.452526",
       "yValue": "34.883591"
-    },
-    {
-      "unitName": "함양",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "224 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.751004",
-      "yValue": "35.529359"
-    },
-    {
-      "unitName": "동고령",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "241 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "128.365043",
-      "yValue": "35.753059"
-    },
-    {
-      "unitName": "고령",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "242 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "128.253581",
-      "yValue": "35.697330"
-    },
-    {
-      "unitName": "해인사",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "243 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "128.174277",
-      "yValue": "35.711883"
-    },
-    {
-      "unitName": "남원",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "247 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.398799",
-      "yValue": "35.427329"
-    },
-    {
-      "unitName": "순창",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "248 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.136483",
-      "yValue": "35.367250"
-    },
-    {
-      "unitName": "담양",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "249 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "126.978662",
-      "yValue": "35.284842"
-    },
-    {
-      "unitName": "동남원",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "264 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.479315",
-      "yValue": "35.479470"
-    },
-    {
-      "unitName": "지리산",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "269 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.590300",
-      "yValue": "35.482760"
-    },
-    {
-      "unitName": "가조",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "274 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "128.023272",
-      "yValue": "35.704442"
-    },
-    {
-      "unitName": "거창",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "280 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": "127.928812",
-      "yValue": "35.679406"
-    },
-    {
-      "unitName": "서함양",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "724 ",
-      "routeName": "광주대구선",
-      "routeNo": "012",
-      "xValue": null,
-      "yValue": null
-    },
-    {
-      "unitName": "남고창",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "567 ",
-      "routeName": "고창-담양선",
-      "routeNo": "014",
-      "xValue": "126.676780",
-      "yValue": "35.403980"
-    },
-    {
-      "unitName": "장성물류",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "568 ",
-      "routeName": "고창-담양선",
-      "routeNo": "014",
-      "xValue": "126.759155",
-      "yValue": "35.344360"
-    },
-    {
-      "unitName": "북광주",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "569 ",
-      "routeName": "고창-담양선",
-      "routeNo": "014",
-      "xValue": "126.893352",
-      "yValue": "35.256471"
-    },
-    {
-      "unitName": "일로",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "056 ",
-      "routeName": "서해안선",
-      "routeNo": "015",
-      "xValue": "126.480819",
-      "yValue": "34.858761"
-    },
-    {
-      "unitName": "군산",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "227 ",
-      "routeName": "서해안선",
-      "routeNo": "015",
-      "xValue": "126.790774",
-      "yValue": "36.002506"
-    },
-    {
-      "unitName": "동군산",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "228 ",
-      "routeName": "서해안선",
-      "routeNo": "015",
-      "xValue": "126.829418",
-      "yValue": "35.945164"
-    },
-    {
-      "unitName": "서천",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "234 ",
-      "routeName": "서해안선",
-      "routeNo": "015",
-      "xValue": "126.689046",
-      "yValue": "36.095569"
-    },
-    {
-      "unitName": "서서울",
-      "pageNo": null,
-      "numOfRows": null,
-      "unitCode": "253 ",
-      "routeName": "서해안선",
-      "routeNo": "015",
-      "xValue": "126.864689",
-      "yValue": "37.355446"
     }
-  ],
-  "pageNo": 1,
-  "numOfRows": 99,
-  "pageSize": 6,
-  "message": "인증키가 유효합니다.",
-  "code": "SUCCESS"
+  ]
 }
