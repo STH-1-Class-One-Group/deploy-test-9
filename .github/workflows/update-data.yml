@@ -1,0 +1,29 @@
+name: Update highway data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 자정 자동 실행
+  workflow_dispatch:       # 수동 실행 버튼도 활성화
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch data
+        env:
+          ROAD_API_KEY: ${{ secrets.GATE_LOCA_API_KEY }}
+        run: node fetch_data.js
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "chore: update data.json"
+          git push
