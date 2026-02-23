@@ -140,20 +140,25 @@ function calcBounds(stations, margin) {
 // ── 4. 데이터 파싱 ────────────────────────────────────────────
 // ✅ 수정 — null/비정상 좌표 제거
 function parseStations(apiResp) {
-  var ROUTE_SORT = {
-  "001": function(a, b) { return b.lat - a.lat; }, // 북→남 (위도 내림)
-  "015": function(a, b) { return b.lat - a.lat; }, // 북→남
-  "035": function(a, b) { return b.lat - a.lat; }, // 북→남
-  "050": function(a, b) { return a.lon - b.lon; }, // 서→동 (경도 오름)
-  "010": function(a, b) { return a.lon - b.lon; }, // 동→서 (경도 오름... 부산→광주)
+
+  // 경부선/영동선: 수작업 조사 순서 기준
+  var ROUTE_ORDER = {
+    "001": ["대왕판교","판교","서울","수원신갈","기흥","기흥동탄","오산","남사진위","안성","북천안","천안","독립기념관","청주","남청주","신탄진","대전","옥천","금강","영동","황간","추풍령","김천","구미","남구미","왜관","칠곡물류","북대구","경산","영천","서경주","경주","활천","서울산","통도사","양산","노포","부산"],
+    "050": ["군자","서안산","안산","군포","동군포","부곡","북수원","동수원","마성","용인","양지","덕평","이천","여주","문막","원주","새말","둔내","면온","평창","속사","진부","대관령"],
   };
-  
-  return apiResp.list
+
+  // 남해선 순천 구간 교정 순서
+  var NAMHAE_SUNCHEON = ["남순천","순천만","서순천","순천"];
+
+  // 서해안선/중부선/남해선: 위도경도 기준 정렬
+  var ROUTE_SORT = {
+    "015": function(a, b) { return b.lat - a.lat; },
+    "035": function(a, b) { return b.lat - a.lat; },
+    "010": function(a, b) { return a.lon - b.lon; },
+  };
+
+  var stations = apiResp.list
     .filter(function(d) {
-      // // xValue 또는 yValue가 null/빈값인 항목 제거
-      // return d.xValue != null && d.yValue != null
-      //     && d.xValue !== '' && d.yValue !== '';
-      // 걸러진 항목 수 체크 디버깅
       var bad = d.xValue == null || d.yValue == null || d.xValue === '' || d.yValue === '';
       if (bad) console.warn('좌표 없는 영업소 제외:', d.unitName, d.routeName);
       return !bad;
@@ -169,14 +174,57 @@ function parseStations(apiResp) {
       };
     })
     .filter(function(s) {
-      // parseFloat 후에도 NaN이면 제거 (문자열 오염 대비)
       return !isNaN(s.lon) && !isNaN(s.lat);
-    })
-    .sort(function(a, b) {
-      var sortFn = ROUTE_SORT[a.routeNo];
-      return sortFn ? sortFn(a, b) : 0;
     });
-  }
+
+  // 노선별로 그룹화 후 각각 정렬
+  var grouped = {};
+  stations.forEach(function(s) {
+    if (!grouped[s.routeNo]) grouped[s.routeNo] = [];
+    grouped[s.routeNo].push(s);
+  });
+
+  var result = [];
+  Object.keys(grouped).forEach(function(routeNo) {
+    var group = grouped[routeNo];
+
+    if (ROUTE_ORDER[routeNo]) {
+      // ROUTE_ORDER 기준 정렬, 목록에 없는 영업소는 맨 뒤
+      var orderMap = {};
+      ROUTE_ORDER[routeNo].forEach(function(name, i) { orderMap[name] = i; });
+      group.sort(function(a, b) {
+        var ia = orderMap[a.name] !== undefined ? orderMap[a.name] : 9999;
+        var ib = orderMap[b.name] !== undefined ? orderMap[b.name] : 9999;
+        return ia - ib;
+      });
+
+    } else if (routeNo === "010") {
+      // 남해선: 위도경도 정렬 후 순천 구간 교정
+      group.sort(ROUTE_SORT["010"]);
+
+      // 순천 구간 4개 추출
+      var suncheonMap = {};
+      NAMHAE_SUNCHEON.forEach(function(name, i) { suncheonMap[name] = i; });
+      var suncheon = group.filter(function(s) { return suncheonMap[s.name] !== undefined; });
+      var others   = group.filter(function(s) { return suncheonMap[s.name] === undefined; });
+      suncheon.sort(function(a, b) { return suncheonMap[a.name] - suncheonMap[b.name]; });
+
+      // 순천만 위치(others 기준)에 삽입
+      var insertAt = others.findIndex(function(s) { return s.name === "광양"; });
+      if (insertAt === -1) insertAt = others.length;
+      group = others.slice(0, insertAt).concat(suncheon).concat(others.slice(insertAt));
+
+    } else {
+      // 서해안선/중부선: 위도경도 정렬
+      var sortFn = ROUTE_SORT[routeNo];
+      if (sortFn) group.sort(sortFn);
+    }
+
+    result = result.concat(group);
+  });
+
+  return result;
+}
 
 function groupByRoute(stations) {
   var acc = {};
